@@ -1,15 +1,12 @@
 import React from "react";
 import './style/footer.css';
-import {Contact} from ".";
 
 function Footer() {
   return (
     <footer>
       <div className="contact">
-        <Contact />
+        <p>Developed by <a href="https://github.com/StarrySkyrs/StarrySkyrs.github.io" target="_blank" rel="noreferrer">Sijia Han</a> with ❤️, inspired by Yuji Sato</p>
       </div>
-      <p>Portfolio made with React.js</p>
-      <p>developed by <a href="https://github.com/alahyaoui" target="_blank" rel="noreferrer">Lahyaoui Ayoub</a> forked from <a href="https://github.com/yujisatojr/portfolio" target="_blank" rel="noreferrer">Yuji Sato</a> with his consent</p>
     </footer>
   );
 }

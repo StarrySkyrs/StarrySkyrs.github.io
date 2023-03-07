@@ -10,7 +10,7 @@ import screenshot_abalone from './assets/img/abalone.jpeg';
 import screenshot_2048 from './assets/img/2048.jpeg';
 import FadeInSection from '../fade/FadeInSections'
 
-function Project() {
+function Project_old() {
   return (
     <div className="projects-container" id="project">
       <FadeInSection>
@@ -85,6 +85,17 @@ function Project() {
           </div>
         </div>
       </FadeInSection>
+    </div>
+  );
+}
+
+function Project() {
+  return (
+    <div className="projects-container" id="project">
+      <FadeInSection>
+        <h1>Projects</h1>
+        <p> Coming Soon....</p>
+        </FadeInSection>
     </div>
   );
 }

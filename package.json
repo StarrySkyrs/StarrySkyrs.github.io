@@ -1,8 +1,8 @@
 {
-  "name": "ayoublahyaoui.com",
+  "name": "sijiahan.com",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ayoublahyaoui.com/",
+  "homepage": "https://sijiahan.com/",
   "dependencies": {
     "-": "^0.0.1",
     "@babel/runtime": "^7.16.5",

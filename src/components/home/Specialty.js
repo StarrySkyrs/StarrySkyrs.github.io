@@ -2,14 +2,9 @@ import React from 'react';
 import './style/specialty.css';
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { FaJava, FaJsSquare, FaHtml5, FaCss3, FaPhp, FaPython, FaReact, FaBootstrap, FaLaravel, FaGitAlt } from "react-icons/fa";
-import { SiSwift, SiKotlin, SiCplusplus, SiSpringboot, SiDjango, SiPostgresql, SiSqlite, SiHeroku, SiPostman, SiQt, SiAndroidstudio } from "react-icons/si";
-import { GrMysql, } from "react-icons/gr";
-import { CgShapeCircle } from "react-icons/cg";
 import FadeInSection from '../fade/FadeInSections'
 import Chip from '@material-ui/core/Chip';
-import { faAppStore, faReact } from '@fortawesome/free-brands-svg-icons';
-import { faBuilding } from '@fortawesome/free-regular-svg-icons';
+import { faAppStore, faReact, faPython } from '@fortawesome/free-brands-svg-icons';
 
 function Specialty() {
   return (
@@ -21,48 +16,68 @@ function Specialty() {
 
             <div className="specialty">
               <FontAwesomeIcon icon={faReact} size="4x" />
-              <h3>Full-Stack Web Development</h3>
-              <p className="flex-chips">Tech stack:
-                <Chip className="zoom" avatar={<FaReact />} variant="outlined" label="React.js" />
-                <Chip className="zoom" avatar={<FaBootstrap />} variant="outlined" label="Bootstrap" />
-                <Chip className="zoom" avatar={<SiSpringboot />} variant="outlined" label="Spring Boot" />
-                <Chip className="zoom" avatar={<FaLaravel />} variant="outlined" label="Laravel" />
-                <Chip className="zoom" avatar={<SiDjango />} variant="outlined" label="Django" />
-                <Chip className="zoom" avatar={<FaJsSquare />} variant="outlined" label="JavaScript" />
-                <Chip className="zoom" avatar={<FaHtml5 />} variant="outlined" label="HTML" />
-                <Chip className="zoom" avatar={<FaCss3 />} variant="outlined" label="CSS" />
-                <Chip className="zoom" avatar={<FaPhp />} variant="outlined" label="PHP" />
-                <Chip className="zoom" avatar={<SiHeroku />} variant="outlined" label="Heroku" />
-                <Chip className="zoom" avatar={<SiPostgresql />} variant="outlined" label="PostgreSql" />
-                <Chip className="zoom" avatar={<GrMysql />} variant="outlined" label="MySQL" />
-                <Chip className="zoom" avatar={<SiPostman />} variant="outlined" label="Postman" />
+              <h3>Data Science</h3>
+              <p className="flex-chips">Tech stack: { }
+                <Chip variant="outlined" label="Python" />
+                <Chip variant="outlined" label="R" />
+                <Chip variant="outlined" label="Pandas" />
+                <Chip variant="outlined" label="Numpy" />
+                <Chip variant="outlined" label="ggplot" />
+                <Chip variant="outlined" label="Plotly" />
+                <Chip variant="outlined" label="Seaborn" />
+                <Chip variant="outlined" label="Altair" />
+                <Chip variant="outlined" label="Matplotlib" />
+                <Chip variant="outlined" label="GitHub" />
+                <Chip variant="outlined" label="SQL" />
+                <Chip variant="outlined" label="NoSQL" />
+                <Chip variant="outlined" label="REST API" />
+                <Chip variant="outlined" label="Docker" />
+                <Chip variant="outlined" label="Machine Learning" />
+                <Chip variant="outlined" label="Deep Learning" />
+                <Chip variant="outlined" label="NLP" />
+                <Chip variant="outlined" label="Jupyter Notebook" />
+                
               </p>
             </div>
 
             <div className="specialty">
               <FontAwesomeIcon icon={faAppStore} size="4x" />
               <h3>Software Development</h3>
-              <p className="flex-chips">Tech stack:
-                <Chip className="zoom" avatar={<FaReact />} variant="outlined" label="React Native" />
-                <Chip className="zoom" avatar={<FaJava />} variant="outlined" label="Java" />
-                <Chip className="zoom" avatar={<SiKotlin />} variant="outlined" label="Kotlin" />
-                <Chip className="zoom" avatar={<SiSwift />} variant="outlined" label="Swift" />
-                <Chip className="zoom" avatar={<SiAndroidstudio />} variant="outlined" label="Android Studio" />
-                <Chip className="zoom" avatar={<SiCplusplus />} variant="outlined" label="C/C++" />
-                <Chip className="zoom" avatar={<SiQt />} variant="outlined" label="Qt Creator" />
-                <Chip className="zoom" avatar={<FaGitAlt />} variant="outlined" label="Git" />
-                <Chip className="zoom" avatar={<SiSqlite />} variant="outlined" label="SQLite" />
+              <p className="flex-chips">Tech stack: { }
+                <Chip variant="outlined" label="Java" />
+                <Chip variant="outlined" label="C" />
+                <Chip variant="outlined" label="C++" />
+                <Chip variant="outlined" label="C#" />
+                <Chip variant="outlined" label="Python" />
+                <Chip variant="outlined" label="GitLab" />
+                <Chip variant="outlined" label="GitHub" />
+                <Chip variant="outlined" label="Docker" />
+                <Chip variant="outlined" label="Android Studio" />
+                <Chip variant="outlined" label="Firebase " />
+                <Chip variant="outlined" label="JavaScript" />
+                <Chip variant="outlined" label="HTML" />
+                <Chip variant="outlined" label="CSS" />
               </p>
             </div>
 
             <div className="specialty">
-              <FontAwesomeIcon icon={faBuilding} size="4x" />
-              <h3>Enterprise Resource Planning (ERP) Development</h3>              
-              <p className="flex-chips">Tech stack:
-                <Chip className="zoom" avatar={<CgShapeCircle />} variant="outlined" label="Odoo" />
-                <Chip className="zoom" avatar={<FaPython />} variant="outlined" label="Python" />
+              <FontAwesomeIcon icon={faPython} size="4x"/>
+              <h3>Data Analysis</h3>
+              <p className="flex-chips">Tech stack: { }
+                <Chip variant="outlined" label="R" />
+                <Chip variant="outlined" label="SQL" />
+                <Chip variant="outlined" label="NoSQL" />
+                <Chip variant="outlined" label="Python" />
+                <Chip variant="outlined" label="Pandas" />
+                <Chip variant="outlined" label="Matplotlib" />
+                <Chip variant="outlined" label="Seaborn" />
+                <Chip variant="outlined" label="Sklearn" />
+                <Chip variant="outlined" label="Snowflake" />
+                <Chip variant="outlined" label="Tableau" />
+                <Chip variant="outlined" label="Tensorflow" />
               </p>
             </div>
+
           </div>
         </div>
       </FadeInSection>
